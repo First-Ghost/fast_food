@@ -13,7 +13,7 @@ export const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 shadow-lg  bg-gray-100 z-50 sticky top-0  ">
+    <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 shadow-lg  bg-gray-100 z-50 sticky top-4  ">
       {/* Left side*/}
       <div className="flex items-center">
         <div onClick={() => setNav(!nav)} className="cursor-pointer ">
